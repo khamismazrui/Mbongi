@@ -8,4 +8,4 @@ services:
     startCommand: ""
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: mbongi_project.settings
+        value: mbongi_project.settings 
