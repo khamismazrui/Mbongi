@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mbongi-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: mbongi_project.settings
+
+        git add render.yaml
+git commit -m "Add render.yaml for deployment"
+git push origin main
